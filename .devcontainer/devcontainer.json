@@ -1,0 +1,4 @@
+{
+    "image": "my-dev-environment",
+    "forwardPorts": [8545, 4001, 4002, 4003, 9094, 9095]
+}  
