@@ -26,7 +26,7 @@ RUN curl -s https://dist.ipfs.io/ipfs-cluster-service/v0.14.1/ipfs-cluster-servi
     tar -xvzf ipfs-cluster-service.tar.gz && \
     rm ipfs-cluster-service.tar.gz && \
     cd ipfs-cluster-service && \
-    ./install.sh && \
+    mv ipfs-cluster-service /usr/local/bin && \
     cd .. && \
     rm -r ipfs-cluster-service
 
@@ -34,7 +34,7 @@ RUN curl -s https://dist.ipfs.io/ipfs-cluster-ctl/v0.14.1/ipfs-cluster-ctl_v0.14
     tar -xvzf ipfs-cluster-ctl.tar.gz && \
     rm ipfs-cluster-ctl.tar.gz && \
     cd ipfs-cluster-ctl && \
-    ./install.sh && \
+    mv ipfs-cluster-ctl /usr/local/bin && \
     cd .. && \
     rm -r ipfs-cluster-ctl
 

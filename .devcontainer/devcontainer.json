@@ -8,13 +8,14 @@
     },
 
     // Use 'forwardPorts' to make a list of ports inside the container available locally.
-    "forwardPorts": [8545, 4001, 4002, 4003, 9094, 9095]
+    "forwardPorts": [8545, 4001, 4002, 4003, 9094, 9095],
 
     // Use 'postCreateCommand' to run commands after the container is created.
     // "postCreateCommand": "uname -a",
 
     // Comment out to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
     "remoteUser": "vscode",
+    
     "features": {
         "kubectl-helm-minikube": "latest",
         "terraform": "latest",
